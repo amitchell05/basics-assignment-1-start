@@ -3,11 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: '[app-success-alert]',
   templateUrl: './success-alert.component.html',
-  styles: [`
-    h3 {
-      color: rgb(29, 145, 58);
-    }
-  `]
+  styleUrls: ['./success-alert.component.css']
 })
 export class SuccessAlertComponent implements OnInit {
 
